@@ -1,7 +1,8 @@
 
-.top-menu * {margin: 0;padding: 0; }    
+
+.top-menu * {margin: 0;padding: 0;}    
 .top-menu nav {background: #00316d;width: 50%;float:left;}
-.top-menu ul {padding: 0;margin: 0 auto;width: 100%;}
+.top-menu ul {padding: 0;margin: 0 auto;width: 100%;z-index: 100;}
 .top-menu ul li {list-style: none;display: inline-block;padding:10px;}
 .top-menu ul li:hover {background: #608000;}
 .top-menu ul li a {color: #fff;text-decoration: none;}
