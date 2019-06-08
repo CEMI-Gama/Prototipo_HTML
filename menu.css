@@ -1,17 +1,65 @@
 
+body {
+  margin-top: 50px;
+}
 
-.top-menu * {margin: 0;padding: 0;}    
-.top-menu nav {background: #00316d;width: 50%;float:left;}
-.top-menu ul {padding: 0;margin: 0 auto;width: 100%;z-index: 100;}
-.top-menu ul li {list-style: none;display: inline-block;padding:10px;}
-.top-menu ul li:hover {background: #608000;}
-.top-menu ul li a {color: #fff;text-decoration: none;}
-.top-menu .toggle {width: 50% ;padding: 10px 20px;background: #001f44;text-align: right;box-sizing:border-box;color: #fff;font-size: 30px;display:none;}
-.login {text-align: right;}
+.top-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.top-menu * {
+  margin:0;
+  padding: 0;
+}
+
+.top-menu nav {
+    background:#00316d;
+    width: 50%;
+    float:left;
+  }
+
+.top-menu ul {
+  margin:0 auto;
+  width:100%;
+}
+
+.top-menu ul li {
+  list-style:none;
+  display: inline-block;
+  padding:10px;
+}
+
+.top-menu ul li:hover {
+  background:#608000;
+}
+
+.top-menu ul li a {
+  color: #fff;
+  text-decoration:none;
+}
+
+.top-menu .toggle {
+  width:50%;
+  padding: 10px 20px;
+  background:#001f44;
+  text-align:right;
+  box-sizing:border-box;
+  color: #fff;
+  font-size:30px;
+  display:none;
+}
+
+.login {
+  text-align:right;
+}
 
 @media only screen and (max-width: 768px) {
-.top-menu   .toggle {display: block;}
-.top-menu   ul {width: 100%;display: none;}
-.top-menu   ul li {display: block;text-align: center;}
-.top-menu   .active {display: block;}
+.top-menu .toggle {display: block;}
+.top-menu ul {width: 100%;display: none;}
+.top-menu ul li {display: block;text-align: center;}
+.top-menu .active {display: block;}
 }
